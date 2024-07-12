@@ -20,7 +20,7 @@ goverse2 datasets
 
 ## Motivation
 <div align="center">
-  <img src="" width="70%">
+  <img src="https://github.com/XiaoMi/CGNet/blob/main/figs/teaser.png" width="70%">
 </div>
 
 Top: A toy example which illustrates the centerline graph and the impact of overlooking the continuity. Bottom: Comparison with MapTR and TopoNet. They predicts inaccurate position of junction points and wrong topology, all leading to the discontinuous path. Our CGNet obtain the continuous path.
@@ -28,7 +28,7 @@ Top: A toy example which illustrates the centerline graph and the impact of over
 
 ## Qualitative results
 <div align="center">
-  <img src="" width="70%">
+  <img src="https://github.com/XiaoMi/CGNet/blob/main/figs/result.png" width="70%">
 </div>
 Qualitative comparisons under different weather and lighting conditions on nuScenes. CGNet predicts more accurate position of junction points and correct topology, leading to a more continuous and smooth path.
 
