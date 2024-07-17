@@ -1,5 +1,6 @@
 # CGNet
-The official implementation of the ECCV 2024 paper: Continuity Preserving Online CenterLine Graph Learning
+The official implementation of the ECCV 2024 paper: 
+[Continuity Preserving Online CenterLine Graph Learning](https://arxiv.org/abs/2407.11337)
 
 ## Abstract
 Lane topology, which is usually modeled by a centerline
@@ -69,7 +70,17 @@ python tools/CGNet_visualize.py projects/configs/test/cgnet_local.py ckpts/cgnet
 
 ## Citation
 If you find this work useful for your research, please cite:
-
+```
+@misc{han2024continuitypreservingonlinecenterline,
+      title={Continuity Preserving Online CenterLine Graph Learning}, 
+      author={Yunhui Han and Kun Yu and Zhiwei Li},
+      year={2024},
+      eprint={2407.11337},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2407.11337}, 
+}
+```
 
 ## Acknowledgements
 We would like to thank [MapTR](https://github.com/hustvl/MapTR), [STSU](https://github.com/ybarancan/STSU), [LaneGNN](https://github.com/jzuern/lanegnn/tree/main), [OpenLane-V2](https://github.com/OpenDriveLab/OpenLane-V2), [TopoNet](https://github.com/OpenDriveLab/TopoNet), [VectorMapNet](https://github.com/Mrmoore98/VectorMapNet_code) for their great codes!
