@@ -46,6 +46,10 @@ pip install -r requirement.txt
 
 cd mmdetection3d
 python setup.py develop
+
+## Install GeometricKernelAttention. Please refer to [MapTR](https://github.com/hustvl/MapTR).
+cd projects/mmdet3d_plugin/cgnet/modules/ops/geometric_kernel_attn
+python setup.py build install
 ```
 
 #### Prepare nuScenes data
