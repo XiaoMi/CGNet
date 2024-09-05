@@ -34,7 +34,6 @@ filelock==3.12.2
 fire==0.4.0
 flake8==5.0.4
 fonttools==4.29.1
-GeometricKernelAttention==1.0
 google-auth==2.14.1
 google-auth-oauthlib==0.4.6
 grpcio==1.50.0
