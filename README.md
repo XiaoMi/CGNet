@@ -68,21 +68,20 @@ python tools/train.py projects/configs/cgnet/cgnet_ep110.py
 python tools/test.py projects/configs/cgnet/cgnet_ep110.py ckpts/cgnet_ep110.pth --eval chamfer openlane topology
 
 #vis
-python tools/CGNet_visualize.py projects/configs/test/cgnet_local.py ckpts/cgnet_ep110.pth --show-dir ./show
+python tools/CGNet_visualize.py projects/configs/test/cgnet_ep110.py ckpts/cgnet_ep110.pth --show-dir ./show
 ```
 
 
 ## Citation
 If you find this work useful for your research, please cite:
 ```
-@misc{han2024continuitypreservingonlinecenterline,
-      title={Continuity Preserving Online CenterLine Graph Learning}, 
-      author={Yunhui Han and Kun Yu and Zhiwei Li},
-      year={2024},
-      eprint={2407.11337},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2407.11337}, 
+@inproceedings{han2025continuity,
+  title={Continuity preserving online centerline graph learning},
+  author={Han, Yunhui and Yu, Kun and Li, Zhiwei},
+  booktitle={European Conference on Computer Vision},
+  pages={342--359},
+  year={2025},
+  organization={Springer}
 }
 ```
 
